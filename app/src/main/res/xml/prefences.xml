@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+    <ListPreference
+        android:key="@string/sound_quality_key"
+        android:title="Recording Quality"
+        android:entries="@array/sound_quality_items"
+        android:entryValues="@array/sound_quality_items_value"
+        android:defaultValue="@string/sound_quality_default_value"
+        android:summary="@string/quality_summary" />
+
+    <ListPreference
+        android:key="@string/sound_encoding_key"
+        android:title="Sound Encoding"
+        android:entries="@array/sound_encoding_items"
+        android:entryValues="@array/sound_encoding_items_value"
+        android:defaultValue="@string/sound_encoding_default_value"
+        android:summary="@string/encoding_summary" />
+
+    <ListPreference
+        android:key="@string/file_encoding_key"
+        android:title="File Format "
+        android:entries="@array/file_encoding_items"
+        android:entryValues="@array/file_encoding_items_value"
+        android:defaultValue="@string/file_encoding_default_value"
+        android:summary="@string/file_summary" />
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Sound Recorder</string>
+
+
+    <string name="quality_summary">High Quailty</string>
+
+    <string name="sound_quality_default_value">High</string>
+    <string name="sound_quality_key">Sound_quality</string>
+    <string-array name="sound_quality_items">
+
+
+        <item>High Quality</item>
+        <item>Medium Quality</item>
+        <item>Low Quality</item>
+    </string-array>
+
+    <string-array name="sound_quality_items_value">
+
+
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+
+
+
+
+
+    <string name="sound_encoding_key">sound_encoding</string>
+
+
+    <string-array name="sound_encoding_items">
+
+
+        <item>Stereo</item>
+        <item>Mono</item>
+
+    </string-array>
+
+    <string-array name="sound_encoding_items_value">
+
+
+        <item>Stereo</item>
+        <item>Mono</item>
+
+    </string-array>
+
+    <string name="sound_encoding_default_value">Mono</string>
+    <string name="encoding_summary">Mono</string>
+
+    <string name="file_encoding_key">file_encoding_key</string>
+    <string-array name="file_encoding_items">
+
+        <item>.mp3 Format</item>
+        <item>.wav Format</item>
+    </string-array>
+
+    <string-array name="file_encoding_items_value">
+
+        <item>.mp3</item>
+        <item>.wav</item>
+    </string-array>
+
+    <string name="file_encoding_default_value">.wav</string>
+    <string name="file_summary">.mp3</string>
+</resources>
